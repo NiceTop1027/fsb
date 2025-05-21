@@ -14,10 +14,10 @@ int main(){
 	init();
 
 	char buf[100] = {0,};
-	FILE* fp = fopen("/home/fsb/flag","r");
+	FILE* fp = fopen("/home/ctf/flag.txt","r");
 
 	if(fp == NULL){
-		puts("/home/fsb/ 에 flag 파일이 없습니다....");
+		puts("/home/ctf/ 에 flag 파일이 없습니다....");
 		exit(1);
 	}
 
